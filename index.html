@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <p>TranscribeX</p>
+    </nav>
+    <div id="main">
+        <textarea id="input" placeholder="Enter text here..."></textarea>
+        <div id="buttons">
+            <button id="Startbtn" class="icon-btn">
+                <i class="fa-solid fa-microphone"></i>
+            </button>
+            <button id="Stopbtn" class="icon-btn">
+                <i class="fa-solid fa-stop"></i>
+            </button>
+            <button id="Savebtn" class="icon-btn">
+                <i class="fa-solid fa-floppy-disk"></i>
+            </button>
+        </div>
+        <div id="container"></div>
+    </div>
+</body>
+</html>
